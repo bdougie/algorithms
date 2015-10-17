@@ -13,6 +13,7 @@ def sum_fast(array)
   array.each do |i|
     sum += i
   end
+
   return true if sum == 0
   return false
 end
